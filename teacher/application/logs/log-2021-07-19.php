@@ -1,0 +1,35 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-07-19 04:49:16 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:49:28 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:49:35 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:49:43 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:49:46 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:49:50 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:49:58 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:55:46 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:56:06 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 04:56:18 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:18 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:20 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:23 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:24 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:26 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:27 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:29 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:30 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:32 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:34 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:39 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:41 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:42 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:44 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:44 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:45 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:47 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:48 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:50 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:54 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:58 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:48:49 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:48:51 --> 404 Page Not Found: Faviconico/index

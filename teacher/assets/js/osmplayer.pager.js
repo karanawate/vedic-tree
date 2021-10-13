@@ -1,0 +1,1 @@
+osmplayer.pager.js

@@ -1,0 +1,168 @@
+<?php
+ $this->load->view('header');
+ $monthdata =  required_data();
+
+?>
+<style type="text/css">
+    .thclass{
+        width:400px;
+    }
+</style>
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            <?php $this->load->view('topbar'); ?>
+            <?php $this->load->view('sidebar'); ?>
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+                            <div class="col-md-12">
+                                <div class="card">
+                                      <div class="card-body">
+                                        <h1>Blogs Module</h1>
+                                        
+                                            <?php
+                                            $message = $this->session->flashdata('msg');
+                                            if (isset($message)) {
+                                                echo '<div class="alert alert-info successMessage ">' . $message . '</div>';
+                                                $this->session->unset_userdata('msg');
+                                            }
+
+                                            ?>
+                                        <form method="POST" action="<?php echo base_url('adminseo/updates_blogs'); ?>" enctype="multipart/form-data">
+                                            <input type="hidden" value="<?php echo $blogs_edit[0]['id']; ?>" name="home_id" />
+                                            <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="col-xl-4 col-md-6">
+                                               <div class="form-group" >
+                                                    <div class="form-group">
+                                                        <label>Enter title  </label>
+                                                        <input type="text" class="form-control" id="title" name="title" value="<?php echo  $blogs_edit[0]['title']?>">
+                                                    </div>
+                                                    <span style="color:red"><?php echo form_error('title');?></span>
+                                                </div>
+                                                </div>
+                                                <div class="col-xl-4 col-md-6">
+                                                   <div class="form-group" >
+                                                        <div class="form-group">
+                                                            <label> Enter Date</label>
+                                                            <input type="date" class="form-control" id="date" name="date" placeholder="date " value="<?php echo  $blogs_edit[0]['date']?>">
+                                                        </div>
+                                                        <span style="color:red"><?php echo form_error('book_fees');?></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-md-6">
+                                                   <div class="form-group" >
+                                                        <div class="form-group">
+                                                            <label>Description</label>
+                                                            <textarea name="description" id="editor"  value="<?php echo  $blogs_edit[0]['description']?>">
+                                                                <?php echo  $blogs_edit[0]['description']?>
+                                                           </textarea>
+                                                        </div>
+                                                        <span style="color:red"><?php echo form_error('description');?></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-md-6">
+                                                   <div class="form-group" >
+                                                        <div class="form-group">
+                                                            <label>Enter File upload</label>
+                                                            <input type="file" class="form-control" id="file_upload" name="file_upload" value="<?php echo  $blogs_edit[0]['file_upload']?>" >
+                                                        </div>
+                                                        <span style="color:red"><?php echo form_error('file_upload');?></span>
+                                                        <div>
+                                                        <img class="img-rounded" width="50" height="50" src="<?php echo  base_url('uploads/blogs_images/'.$blogs_edit[0]['file_upload']);?>" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-12 col-md-6" style="top:12px;">
+                                                    <div class="form-group" >
+                                                       <button class="btn btn-primary w-md waves-effect waves-light" name="submit" value="submit" type="submit">submit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                </div>
+                            </div>
+                       
+
+                        
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+        <!-- END layout-wrapper -->
+
+       <?php $this->load->view('footd');?>
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.2.0/classic/ckeditor.js"></script>
+    
+  <script>
+$(document).ready(function(){
+    setTimeout(function() {
+    $(".successMessage").hide(3000);
+}, 3000); 
+});
+</script>
+
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+
+<?php if(isset($error)){ ?>
+  <script type="text/javascript">
+    color = Math.floor((Math.random() * 4) + 1);
+
+      $.notify({
+          icon: "tim-icons icon-bell-55",
+          message: "<?php if(isset($error)){ echo $error['error']; } ?>"
+
+        },{
+            type: type[color],
+            timer: 8000,
+        });
+      
+      setTimeout(function() {
+                    window.location.href = '<?php echo base_url('dashboard/add_fees')?>';
+       }, 2000);
+
+  </script>
+
+<?php } ?>
+
+<script>
+    function check() {
+        if(confirm("Are You Sure You Want To Delete")==true)
+        {
+            return true;
+        }else{
+            return false;
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(".gstamt").keyup(function(){
+
+            var bookfees = parseInt($("#bookfees").val());
+            var school_fees = parseInt($("#school_fees").val());
+            var total = parseInt(bookfees + school_fees); 
+            var gstamt = parseInt($(this).val());
+            var final_fees = parseInt(total/100 * gstamt);
+            $("#final_fees").val(total+final_fees);
+
+
+        });
+    });
+</script>

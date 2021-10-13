@@ -1,0 +1,89 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-07-19 04:20:40 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 04:43:52 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 04:44:28 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 04:44:28 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 06:46:19 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 12:29:12 --> Severity: Notice --> Undefined variable: monthId /home/betavedictree/public_html/application/views/vedicvalue.php 171
+ERROR - 2021-07-19 12:29:12 --> Severity: Notice --> Undefined variable: dayId /home/betavedictree/public_html/application/views/vedicvalue.php 171
+ERROR - 2021-07-19 12:29:12 --> Severity: Notice --> Undefined variable: fk_classId /home/betavedictree/public_html/application/views/vedicvalue.php 171
+ERROR - 2021-07-19 07:11:51 --> 404 Page Not Found: Vedic-dash/vedic_progress_tracker
+ERROR - 2021-07-19 07:12:30 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:12:47 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:12:57 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:13:18 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:26:05 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:26:17 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:26:28 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:27:24 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:27:33 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:27:41 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:27:54 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:27:59 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:28:07 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:28:16 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:28:20 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 07:28:44 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 07:28:45 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 11:51:37 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 11:51:37 --> 404 Page Not Found: Website/img
+ERROR - 2021-07-19 18:17:02 --> Severity: Notice --> Undefined variable: monthId /home/betavedictree/public_html/application/views/vedicvalue.php 171
+ERROR - 2021-07-19 18:17:02 --> Severity: Notice --> Undefined variable: dayId /home/betavedictree/public_html/application/views/vedicvalue.php 171
+ERROR - 2021-07-19 18:17:02 --> Severity: Notice --> Undefined variable: fk_classId /home/betavedictree/public_html/application/views/vedicvalue.php 171
+ERROR - 2021-07-19 12:47:46 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:47:46 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:48:19 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:48:19 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:48:19 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:49:08 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:49:08 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:49:17 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 12:49:19 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 12:49:39 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:49:39 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:50:43 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:50:43 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 12:59:02 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-07-19 12:59:52 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 13:00:06 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 13:00:06 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 13:00:06 --> 404 Page Not Found: Assets/website
+ERROR - 2021-07-19 13:00:51 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 13:14:01 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 13:45:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/home_2_banner_new.jpg
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/menu_bg_shape.png
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:56:57 --> 404 Page Not Found: Img/cta_bg.png
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/menu_bg_shape.png
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/cta_bg.png
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/home_2_banner_new.jpg
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 13:57:51 --> 404 Page Not Found: Img/gallery
+ERROR - 2021-07-19 14:41:38 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-07-19 14:41:39 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-07-19 19:18:59 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2021-07-19 19:19:00 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-07-19 19:19:00 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 19:20:30 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-07-19 19:20:30 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 22:14:26 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-07-19 22:14:27 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 22:41:58 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-07-19 22:41:58 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-07-19 23:38:23 --> 404 Page Not Found: Indexxml/index
+ERROR - 2021-07-19 23:38:23 --> 404 Page Not Found: Indexrss/index
+ERROR - 2021-07-19 23:38:23 --> 404 Page Not Found: Indexrdf/index
+ERROR - 2021-07-19 23:38:23 --> 404 Page Not Found: Feed/index
+ERROR - 2021-07-19 23:38:23 --> 404 Page Not Found: Feeds/index
+ERROR - 2021-07-19 23:38:23 --> 404 Page Not Found: Rssxml/index

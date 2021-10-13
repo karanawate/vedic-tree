@@ -1,0 +1,116 @@
+:root {
+    --body-bg: rgb(204, 204, 204);
+    --white: #FFF;
+    --darkWhite: #ccc;
+    --black: #000;
+    --pageShadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+body {
+    
+}
+.page {
+    background: var(--white);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: var(--pageShadow);
+}
+.page[size="A4"] {
+    width: 270mm;
+    min-height: 370mm;
+    overflow: hidden;
+}
+hr {
+    border-top: 2px solid #000 !important;
+}
+.header-logo {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-gap: 20px;
+}
+.logo img {
+    height: 120px;
+}
+.title-details {
+    align-self: center;
+}
+.app-text {
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.address, .contact-info {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
+.body_section .reciept-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0a3fff;
+    margin: 5px 0px;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    margin-bottom: 10px;
+}
+.input-red {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    border-left: none;
+}
+
+.pay-box {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    width: 30%;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.currency-details {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.amount-details {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 25px;
+}
+.fa-rupee-sign {
+    color: #fff;
+    font-size: 20px;
+}
+
+.sign-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    font-weight: 800;
+}
+.sign-box img {
+    height: 60px;
+}
+.font-text-size {
+    font-size: 20px;
+    font-weight: 300;
+}
+.font-text-main {
+    font-size: 22px;
+    font-weight: 600;
+}
